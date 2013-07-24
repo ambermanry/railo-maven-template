@@ -81,7 +81,7 @@
             <version>1.7</version>
             <executions>
                 <execution>
-                    <phase> validate </phase>
+                    <phase>validate</phase>
                     <configuration>
                         <target>
                             <copy file="src/main/webapp/WEB-INF/web.xml.example" tofile="src/main/webapp/WEB-INF/web.xml" overwrite="false"/>
